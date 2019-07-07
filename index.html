@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<! Author Giri Rao  >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Giphy Wonder World</title>
+        <!-- link jQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- link bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- link style sheet -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+    
+    </head>
+    <body>
+
+        <!-- jumbotron -->
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+                <h1 class="display-4">Welcome To Giphy Wonder World</h1>
+                    
+                    <!-- Button trigger modal -->
+                <button type="button" id="model"  class="btn btn-secondary" data-toggle="modal" data-target="#exampleModalCenter">
+                    Instructions 
+                </button>
+  
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">Instructions</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="p1">Click one of the buttons and it will display still GIPHY images.</p>
+                                <p class="p1">Click one of the still GIPHY images then you can see the animated gif image. If you click the gif again, it will stop playing.</p>
+                                <p class="p1">A rating will display above every gif image.</p>
+                                <header class="p2">Add Button</header>
+                                <p class="p1">If you like to add more GIPHY image buttons, enter the topic you want to the “Add Button” text area and click the "Submit" button.</p>
+                                <p class="p1">Once you have added the button, you can see the GIPHY images by clicking the new topic.</p>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Modal -->
+
+                    <!-- popup message "Button Added Successfully!!!"-->
+                <h2><span class="popmessage"></span></h2>
+
+            </div> <!--jumbotron container-->
+        </div> <!-- jumbotron-->
+
+        <div class="container">
+            <!-- to display button -->
+            <div class="row">
+                <div class="col-md-12" id="button-Display"></div>
+            </div>
+
+            <!-- to display form -->
+            <div class="row">
+                <div class="col-md-12">
+                    <form autocomplete="off"> <!-- autocomplete="off" - To remove previously entered values from the text box-->
+                        <input id="submitButton" type="submit" value="Submit" class="btn btn-secondary">
+                        <input id="user-Input" type="text" placeholder ="Add Button">
+                    </form>
+                </div>
+            </div>
+
+                    <!-- to display images-->
+            <div class="row">
+                <div id="display-Image" class="col-md-12"></div>  
+            </div>
+
+        </div> <!-- main .container-->
+
+        <!-- link java script -->
+        <script type="text/javascript "src="./assets/javascript/app.js">
+        </script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>

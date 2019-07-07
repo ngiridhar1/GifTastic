@@ -1,0 +1,113 @@
+
+/* image holder div */
+.holder{
+    float: left;
+     margin: 15px;
+ }
+ 
+ /* buttons and input area */
+ button, input, optgroup, select, textarea {
+     margin: 5px;
+ 
+ }
+ 
+     /* btton background $ add button background */
+     button {
+     background-color: orangered;
+ 
+     }
+ 
+     
+     
+ /* submit button */
+     .btn-secondary{
+
+         background-color: #222334;
+     }
+ 
+ /* text area */
+ #user-Input{
+     background-color: whitesmoke;
+     color: black;
+     border: 3px solid #202333;
+ }
+ 
+ /* display image */
+ img{
+     width: 300px;
+     height: 300px;
+     border: 1px solid #d73437;
+     background-color: black;
+ }
+ 
+ 
+ 
+ /* text input area and submit button */
+ input{
+ float: right;
+ }
+ 
+  .jumbotron {
+     background-image: url(../images/wp2757874.gif);
+     font-family: 'Georgia', Times, 'Times New Roman', serif;
+     color: #d73437;
+ }
+ 
+ /* popmessage- "button added successfully" */
+ .display-4{
+     margin-bottom: 50px;
+       
+     
+ }
+ 
+ /* popUp message "Button Added Successfully" */
+ .popmessage{
+    
+     text-align: center;
+     color: rgb(18, 250, 18);
+     margin-top: 30px;
+ }
+ 
+ /* "Rating:" text*/
+ p{
+     color: gainsboro;
+     background-color: #101116a1;
+     text-align: center;
+ }
+
+
+/* model header */
+ .modal-header{
+     background-color: black;
+  
+    
+ }
+/* model footer */
+ .modal-footer{
+     background-color: black;
+    
+ }
+/* model main content */
+ .p1{
+     color: white;
+     background-color: black;
+     text-align: left;
+     
+ }
+/* model "X" button */
+ .close{
+     color: aliceblue;
+ }
+ /* model- right side white color change to black   */
+ .modal-content {
+    background-color: black;
+}
+
+
+/* Model- Add Button text */
+.p2{
+    text-align: left;
+ }
+
+
+ 
